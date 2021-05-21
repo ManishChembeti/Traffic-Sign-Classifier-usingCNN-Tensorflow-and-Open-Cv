@@ -19,7 +19,19 @@ Then the required dependencies have been installed for training the network. The
 Then the outputs have been converted to categorical values. We have developed our own architecture for this project. Our architecture consisted of 2 sets of 2 convolution layers followed a max pooling layer and a dropout ratio has also been provided.
 
 A validation split was also mentioned at the starting of training of the model, which helped us understand how our model was working after every epoch. After the whole model was trained, we also performed a test using the test set, and our trained model achieved an accuracy of 96%, which is considered very strong, taking the accuracy into account.
+
 Then we have saved our model as h5 file in order to use it in our GUI. We have developed a python GUI using Tkinter, where a user can upload an image of a traffic sign and we predict that sign and display it back to the user.
+
+***DESIGN***
+
+For the design part we have made an architecture after doing research on various other architectures like Alex net, VGG16 and VGG19.The type of network that we have used in our is the very well-known CNN.
+The research on these architectures and network structures gave us a proper insight into how to make our own architecture.
+This research gave us an idea of how to put convolution layer and maximum pooling layer as well as the drop out values in order to reduce the computational power need as well as increase of accuracy. The basic functionality of CNN is given in figure.
+
+
+
+
+
 
 
 
