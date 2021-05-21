@@ -67,6 +67,8 @@ Maximum pooling layer is used to reduce the dimensions but still retain the deta
 The activation functions used here are rectified linear unit functions, followed by another fully connected layer which runs on a softmax layer in order to predict the class of a traffic sign to which it belongs. The neural network architectural design that has been used in our project is presented in figure 2.
 
 
+![image](https://user-images.githubusercontent.com/59841174/119189482-bb4bc600-ba99-11eb-9600-5c68aa9014f5.png)
+Developed CNN structure
 
 
 
