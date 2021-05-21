@@ -89,3 +89,11 @@ You get a blue GUI window,asking you to upload an traffic image to  classify.
 You press classify and it shows what the respective sign is.
 
 
+![image](https://user-images.githubusercontent.com/59841174/119191320-18e11200-ba9c-11eb-943d-6422526ef3c6.png)
+
+
+![image](https://user-images.githubusercontent.com/59841174/119191406-331af000-ba9c-11eb-933a-89ea4a7c4890.png)
+
+
+
+
