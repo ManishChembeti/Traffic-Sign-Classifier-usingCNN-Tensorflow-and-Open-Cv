@@ -34,6 +34,12 @@ This research gave us an idea of how to put convolution layer and maximum poolin
 
 A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of a series of convolutional layers that convolve with a multiplication or other dot product. The activation function is commonly a RELU layer, and is subsequently followed by additional convolutions such as pooling layers, fully connected layers and normalization layers, referred to as hidden layers because their inputs and outputs are masked by the activation function and final convolution.
 
+When programming a CNN, the input is a tensor with shape (number of images) x (image height) x (image width) x (image depth). Then after passing through a convolutional layer, the image becomes abstracted to a feature map, with shape (number of images) x (feature map height) x (feature map width) x (feature map channels).
+
+A convolutional layer within a neural network should have the following attributes: Convolutional kernels defined by a width and height (hyper-parameters).
+The number of input channels and output channels (hyper-parameter).
+The depth of the Convolution filter (the input channels) must be equal to the number channels (depth) of the input feature map.
+
 
 
 
