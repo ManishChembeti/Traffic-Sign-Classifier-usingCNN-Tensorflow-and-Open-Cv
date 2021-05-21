@@ -10,3 +10,12 @@ The main objective of this project is to develop a product which would help peop
 
 In the past and recent times, there have been many road accidents where the main reason for these being inadequate knowledge of road and traffic signs. Even though speed is one of the key issue for the cause of such atrocities, in a survey, it was found out that the second most heard reason was an individual not knowing what a particular traffic sign meant.
 Our team strongly believes that the product that we have developed would help individuals learn these signs intuitively, especially the adolescence of 21st century, who also stay and live around technology, which is growing faster than ever.
+
+Our project focuses on detecting traffic signs, when provided an image to it through deep learning, image processing through OpenCV and a convenient UI is has been developed in Python GUI using Tkinter.
+
+Initially after downloading the data set, the whole training of the model has been done in Anaconda. The images were initially divided into training and testing sets and were loading into the notebook using the OS module in python.
+Then the required dependencies have been installed for training the network. Then the images for training have been loaded and are reshaped to have the same shape, to help the CNN model for training.
+Then the outputs have been converted to categorical values. We have developed our own architecture for this project. Our architecture consisted of 2 sets of 2 convolution layers followed a max pooling layer and a dropout ratio has also been provided.
+
+
+
