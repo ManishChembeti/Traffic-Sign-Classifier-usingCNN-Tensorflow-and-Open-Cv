@@ -71,5 +71,9 @@ The activation functions used here are rectified linear unit functions, followed
 Developed CNN structure
 
 
+![image](https://user-images.githubusercontent.com/59841174/119189572-d7e7fe00-ba99-11eb-9cef-cb00ff9c09b3.png)
+Architecture Table
+
+
 
 
