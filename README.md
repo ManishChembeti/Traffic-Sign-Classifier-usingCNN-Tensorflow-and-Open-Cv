@@ -29,6 +29,13 @@ The research on these architectures and network structures gave us a proper insi
 This research gave us an idea of how to put convolution layer and maximum pooling layer as well as the drop out values in order to reduce the computational power need as well as increase of accuracy. The basic functionality of CNN is given in figure.
 
 
+![image](https://user-images.githubusercontent.com/59841174/119186637-ff3ccc00-ba95-11eb-909d-72a627760334.png)
+
+
+A convolutional neural network consists of an input and an output layer, as well as multiple hidden layers. The hidden layers of a CNN typically consist of a series of convolutional layers that convolve with a multiplication or other dot product. The activation function is commonly a RELU layer, and is subsequently followed by additional convolutions such as pooling layers, fully connected layers and normalization layers, referred to as hidden layers because their inputs and outputs are masked by the activation function and final convolution.
+
+
+
 
 
 
