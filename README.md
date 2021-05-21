@@ -47,15 +47,24 @@ The data set we have decided to use for our project was the GTSRB- German Traffi
 In the real-world, traffic sign recognition is a two-stage process:
  
 Localization: Detect and localize where in an input image/frame a traffic sign is.
+
 Recognition: Take the localized ROI and actually recognize and classify the traffic sign.
+
 Deep learning object detectors can perform localization and recognition in a single forward-pass of the network.
 
 
+****DATASET DOWNLOAD WHERE AND HOW?****
+
+From here we’ll download the GTSRB dataset from online. Simply click the “Download (300MB)” button in the website menubar and follow the prompts to sign in using one of the third party authentication partners or with your email address. You may then click the “Download (300MB)” button once more and your download will commence as shown.
 
 
 
+****STRUCTURAL REPRESENTATION:****
 
+Basically when an image is passed to a model, it is passed through 2 convolution layer followed by a maximum pooling layer of pooling size (2,2)
+Maximum pooling layer is used to reduce the dimensions but still retain the details of an image. This set is repeated for two times and then it is flattened and passed to a fully connected dense layer network.
 
+The activation functions used here are rectified linear unit functions, followed by another fully connected layer which runs on a softmax layer in order to predict the class of a traffic sign to which it belongs. The neural network architectural design that has been used in our project is presented in figure 2.
 
 
 
