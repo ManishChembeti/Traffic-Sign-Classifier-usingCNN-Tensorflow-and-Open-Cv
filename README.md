@@ -41,6 +41,20 @@ The number of input channels and output channels (hyper-parameter).
 The depth of the Convolution filter (the input channels) must be equal to the number channels (depth) of the input feature map.
 
 
+******Our traffic sign dataset:******
+
+The data set we have decided to use for our project was the GTSRB- German Traffic Sign Detection Benchmark .This is one of the most renowned datasets for traffic signs in websites like kaggle. This data set has more that 40 classes of images and 50000 images for training, validation and testing purposes. We have divided the data set into training, validation and testing set, which further helped us in understanding how well our architecture was working.
+In the real-world, traffic sign recognition is a two-stage process:
+ 
+Localization: Detect and localize where in an input image/frame a traffic sign is.
+Recognition: Take the localized ROI and actually recognize and classify the traffic sign.
+Deep learning object detectors can perform localization and recognition in a single forward-pass of the network.
+
+
+
+
+
+
 
 
 
