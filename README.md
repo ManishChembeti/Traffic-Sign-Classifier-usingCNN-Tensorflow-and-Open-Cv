@@ -22,7 +22,7 @@ A validation split was also mentioned at the starting of training of the model, 
 
 Then we have saved our model as h5 file in order to use it in our GUI. We have developed a python GUI using Tkinter, where a user can upload an image of a traffic sign and we predict that sign and display it back to the user.
 
-***DESIGN***
+    DESIGN
 
 For the design part we have made an architecture after doing research on various other architectures like Alex net, VGG16 and VGG19.The type of network that we have used in our is the very well-known CNN.
 The research on these architectures and network structures gave us a proper insight into how to make our own architecture.
@@ -41,7 +41,7 @@ The number of input channels and output channels (hyper-parameter).
 The depth of the Convolution filter (the input channels) must be equal to the number channels (depth) of the input feature map.
 
 
-******Our traffic sign dataset:******
+    Our traffic sign dataset:
 
 The data set we have decided to use for our project was the GTSRB- German Traffic Sign Detection Benchmark .This is one of the most renowned datasets for traffic signs in websites like kaggle. This data set has more that 40 classes of images and 50000 images for training, validation and testing purposes. We have divided the data set into training, validation and testing set, which further helped us in understanding how well our architecture was working.
 In the real-world, traffic sign recognition is a two-stage process:
@@ -53,13 +53,13 @@ In the real-world, traffic sign recognition is a two-stage process:
 Deep learning object detectors can perform localization and recognition in a single forward-pass of the network.
 
 
-****DATASET DOWNLOAD WHERE AND HOW?****
+    DATASET DOWNLOAD WHERE AND HOW?
 
 From here we’ll download the GTSRB dataset from online. Simply click the “Download (300MB)” button in the website menubar and follow the prompts to sign in using one of the third party authentication partners or with your email address. You may then click the “Download (300MB)” button once more and your download will commence as shown.
 
 
 
-****STRUCTURAL REPRESENTATION:****
+    STRUCTURAL REPRESENTATION:
 
 Basically when an image is passed to a model, it is passed through 2 convolution layer followed by a maximum pooling layer of pooling size (2,2)
 Maximum pooling layer is used to reduce the dimensions but still retain the details of an image. This set is repeated for two times and then it is flattened and passed to a fully connected dense layer network.
@@ -75,7 +75,7 @@ Developed CNN structure
 Architecture Table
 
 
-****4.	DISPLAYING  OUTPUT/RESULTS:****
+	DISPLAYING  OUTPUT/RESULTS:
 
 Open Anaconda.
 Activate  tensor  flow  -->  conda  activate  tf
@@ -96,11 +96,16 @@ You press classify and it shows what the respective sign is.
 
 ![image](https://user-images.githubusercontent.com/59841174/119565893-24984580-bdc8-11eb-8dfe-9c141c35ff0c.png)
 
-****Output Summary****
+    Output Summary
 
 In our project, we came out with a very nice architecture which attained an exceptional accuracy of 98.8% on the validation set and an accuracy of 96% on the test set. Even the data set used was successfully able to get divided into testing and training sets. This model was saved as a h5 file whose location is further passed to our file containing our GUI, for using our trained model extensively.
 We were also successful in developing this GUI, using which, a user can upload an image in our GUI and the user would get a message of what traffic sign it was. The accuracy graph of the model has presented in figure 3.
 
+![image](https://user-images.githubusercontent.com/59841174/119566129-6c1ed180-bdc8-11eb-9aa6-0297a91221b3.png)
+
+    SUMMARY
+ 
+In this Python project using Tensorflow, CNN and OpenCV, we have successfully classified the traffic signs classifier with 96% accuracy, which is pretty good from a simple CNN model. We also developed a python GUI which looks interactive and intuitive to use, which takes an image as input and presents the predicted traffic sign to the user
 
 
 
