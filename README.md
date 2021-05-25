@@ -108,5 +108,28 @@ We were also successful in developing this GUI, using which, a user can upload a
 In this Python project using Tensorflow, CNN and OpenCV, we have successfully classified the traffic signs classifier with 96% accuracy, which is pretty good from a simple CNN model. We also developed a python GUI which looks interactive and intuitive to use, which takes an image as input and presents the predicted traffic sign to the user
 
 
+    CONSTRAINTS
+The biggest constraint that we had during the course of this project was the need of computational power that was needed to train and test the data set. With a total size of more than 50000 images, this model requires quite some amount of computational power to train the network comparatively faster, and finding such high computational power is not accessible easily.
+
+The second constraint we faced were the transferring of images from the downloaded data set to training and testing sets, which also requires quite a good amount of computational power.
+
+
+    Future work:
+    
+* The favorable prediction and accurate recognition of traffic signs are achieved through the continuous training and testing of the network model. The experimental results show that the accurate recognition rate of traffic signs reaches 99.75%, and the average processing time per frame is 5.4 ms.
+
+* The proposed algorithm has more admirable accuracy, better real-time performance, stronger generalization ability and higher training efficiency than other algorithms.
+
+* The accurate recognition rate and average processing time are significantly improved.
+
+* From the viewpoint of traffic sign recognition accuracy and algorithm time-consuming, the proposed traffic sign detection and recognition algorithm has remarkable advantages.
+
+* Considerably enhancing the driving safety of intelligent vehicles in the actual driving environments and effectively
+
+* Meeting the real-time target requirements of smart cars are conducive.
+Furthermore, a strong technical guarantee is provided for the steady development of intelligent vehicle driving assistance.
+
+* In the future, the inclusiveness and anti-error recognition of the traffic sign recognition algorithm can be further optimized and improved to exploit the overall performance of the algorithm.
+
 
 
