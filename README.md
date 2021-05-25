@@ -94,6 +94,14 @@ You press classify and it shows what the respective sign is.
 
 ![image](https://user-images.githubusercontent.com/59841174/119191406-331af000-ba9c-11eb-933a-89ea4a7c4890.png)
 
+![image](https://user-images.githubusercontent.com/59841174/119565893-24984580-bdc8-11eb-8dfe-9c141c35ff0c.png)
+
+****Output Summary****
+
+In our project, we came out with a very nice architecture which attained an exceptional accuracy of 98.8% on the validation set and an accuracy of 96% on the test set. Even the data set used was successfully able to get divided into testing and training sets. This model was saved as a h5 file whose location is further passed to our file containing our GUI, for using our trained model extensively.
+We were also successful in developing this GUI, using which, a user can upload an image in our GUI and the user would get a message of what traffic sign it was. The accuracy graph of the model has presented in figure 3.
+
+
 
 
 
